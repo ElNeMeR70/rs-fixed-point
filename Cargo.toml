@@ -1,0 +1,13 @@
+[package]
+name = "rs-fixed-point"
+version = "1.0.0"
+edition = "2021"
+description = "Fixed-point arithmetic Q16.16 for embedded without FPU"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-fixed-point"
+keywords = ["rust", "fixed-point", "arithmetic", "embedded", "numeric"]
+
+[[bin]]
+name = "rs_fixed_point"
+path = "main.rs"
